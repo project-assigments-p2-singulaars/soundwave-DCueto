@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-join-page',
+  selector: 'sw-join-page',
   standalone: true,
   imports: [],
   templateUrl: './join-page.component.html',

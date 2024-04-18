@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-discover-page',
+  selector: 'sw-discover-page',
   standalone: true,
   imports: [],
   templateUrl: './discover-page.component.html',
