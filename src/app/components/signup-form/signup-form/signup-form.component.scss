@@ -1,0 +1,13 @@
+:host{
+  display: block;
+  width: 50%;
+  padding: 1rem 2.5rem;
+  background-color: #202027;
+  border-radius: .5rem;
+}
+
+@media screen and ( width < 680px ){
+  :host{
+    width: 100%;
+  }
+}

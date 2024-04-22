@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'mixins';
+@import 'variables';
+@import 'reset';
+
+*{
+  box-sizing: border-box;
+}
+
+:root{
+  font-family: Poppins;
+  background: #302E39;
+  height: 100vh;
+  position: relative;
+}
+
+body{
+  font-family: inherit;
+  height: inherit;
+  position: inherit;
+  margin: 0;
+}
+
+@media screen and ( width < 600px ){
+  :root, html, body{
+    font-size: 14px;
+  }
+}

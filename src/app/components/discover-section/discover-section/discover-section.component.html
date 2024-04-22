@@ -1,0 +1,10 @@
+<div class="discover-content">
+  <h2>Discover new music</h2>
+  <div class="square-buttons">
+    @for (button of buttons; track $index) {
+      <sw-square-button [icon]="button.icon" [text]="button.text"></sw-square-button>
+    }
+  </div>
+  <p>By joining you can benefit by listening to the latest aibums released.</p>
+</div>
+<img src="{{ discoverImage }}">

@@ -1,1 +1,5 @@
-<p>menu-nav works!</p>
+<ul>
+  @for ( item of items; track item ){
+    <sw-menu-nav-item [link]="item.link" [text]="item.text"></sw-menu-nav-item>
+  }
+</ul>

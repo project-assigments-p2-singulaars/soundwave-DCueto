@@ -1,0 +1,63 @@
+@import './../../../../assets/styles/mixins';
+
+:host{
+  max-height: 80%;
+  height: 70vw;
+  width: 100%;
+  position: relative;
+  z-index: 5;
+}
+
+section{
+  display: flex;
+  width: inherit;
+  height: 100%;
+  align-items: flex-end;
+  color: white;
+  @include wrap-page;
+
+  .content{
+    margin-bottom: 8rem;
+    align-self: center;
+  }
+
+  h2{
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    line-height: 3.5rem;
+  }
+
+  p{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 2rem;
+  }
+
+  img{
+    height: 100%;
+  }
+}
+
+@media screen and ( width < 670px ){
+
+  :host{
+    display: flex;
+    align-items: center;
+    height: 75%;
+    max-height: 75%;
+
+    section{
+      height: auto;
+      justify-content: center;
+
+      .content{
+        margin-bottom: 0;
+      }
+
+      img{
+        display: none;
+      }
+    }
+  }
+}
