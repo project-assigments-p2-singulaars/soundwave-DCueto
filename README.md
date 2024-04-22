@@ -1,10 +1,13 @@
 # SOUNDWAVE: from Angular point of view
 
+
 ## Introducción
 
 SoundWave, se ha posicionado en el mercado como la competencia directa de Spotify. Con una calidad de sonido extraordinaria y la gran variedad de canciones que ofrece está ganando adeptos a pasos agigantados. No obstante, quieren acelerar el proceso de subscripción a su plataforma con una nueva campaña de marketing digital.
 
 Han contactado contigo por tu reputación como maquetadora web, y te piden que lleves a cabo el desarrollo de una landing page para buscar nuevos suscriptores. Formas parte de un equipo interdisciplinar donde una UX Designer ya ha construido la maqueta que tendrás que llevar al código. Posteriormente, el equipo de marketing digital posicionará la página en los navegadores.
+
+**[Demo](https://soundwave-kappa.vercel.app/)**
 
 ## Requerimientos técnicos
 
