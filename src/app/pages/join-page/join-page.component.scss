@@ -1,0 +1,6 @@
+@import './../../../assets/styles/mixins';
+
+:host{
+  display: block;
+  @include wrap-page;
+}

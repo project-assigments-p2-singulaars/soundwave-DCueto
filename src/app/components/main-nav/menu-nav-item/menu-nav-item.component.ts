@@ -1,12 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'app-menu-nav-item',
+  selector: 'sw-menu-nav-item',
   standalone: true,
-  imports: [],
+  imports: [RouterOutlet, RouterLink, RouterLinkActive],
   templateUrl: './menu-nav-item.component.html',
   styleUrl: './menu-nav-item.component.scss'
 })
 export class MenuNavItemComponent {
-
+  @Input() link!: string;
+  @Input() text!: string;
 }

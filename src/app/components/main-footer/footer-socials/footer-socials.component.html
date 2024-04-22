@@ -1,1 +1,5 @@
-<p>footer-socials works!</p>
+<ul>
+  @for (item of socialItems; track $index) {
+    <sw-footer-socials-item [itemText]="item.itemText" [itemLink]="item.itemLink" [itemIcon]="item.itemIcon"></sw-footer-socials-item>
+  }
+</ul>
