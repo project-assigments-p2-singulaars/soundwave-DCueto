@@ -36,12 +36,9 @@ section{
 }
 
 @media screen and ( width < 670px ){
-  // :root{
-  //   font-size: 12px;
-  // }
 
   :host{
-    height: 90%;
+    // height: 90%;
     section{
       height: auto;
       justify-content: center;
