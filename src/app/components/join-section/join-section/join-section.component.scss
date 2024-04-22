@@ -4,6 +4,8 @@
   max-height: 80%;
   height: 70vw;
   width: 100%;
+  position: relative;
+  z-index: 5;
 }
 
 section{
@@ -23,11 +25,13 @@ section{
     font-size: 3rem;
     font-weight: 400;
     margin-bottom: 1rem;
+    line-height: 3.5rem;
   }
 
   p{
     font-size: 1.2rem;
     margin-bottom: 1rem;
+    line-height: 2rem;
   }
 
   img{
@@ -38,10 +42,19 @@ section{
 @media screen and ( width < 670px ){
 
   :host{
-    // height: 90%;
+    display: flex;
+    align-items: center;
+    height: 75%;
+    max-height: 75%;
+
     section{
       height: auto;
       justify-content: center;
+
+      .content{
+        margin-bottom: 0;
+      }
+
       img{
         display: none;
       }

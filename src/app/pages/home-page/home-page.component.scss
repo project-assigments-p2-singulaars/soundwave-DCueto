@@ -4,8 +4,43 @@
 // @import 'mixins';
 
 :host{
-  display: flex;
-  flex-direction: column;
-  height: inherit;
-  justify-content: space-between;
+  @include page-styles;
+  position: relative;
+  overflow: hidden;
+}
+
+.circle-1, .circle-2, .circle-3{
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.circle-1{
+  width: 30vw;
+  height: 30vw;
+  background-color: #3E2D40;
+  top: 40%;
+  left: 5%;
+}
+
+.circle-2{
+  width: 25vw;
+  height: 25vw;
+  background-color: #303045;
+  top: 20%;
+  left: 30%;
+}
+
+.circle-3{
+  width: 50vw;
+  height: 50vw;
+  background-color: #303045;
+  bottom: -20%;
+  right: -20%;
+}
+
+@media screen and (width < 670px){
+  :host{
+    justify-content: flex-start;
+  }
 }
