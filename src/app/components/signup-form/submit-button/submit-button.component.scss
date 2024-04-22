@@ -1,0 +1,20 @@
+button{
+
+  padding: .8rem 1.3rem;
+  color: white;
+  background-color: #2250A3;
+  border: inherit;
+  border-radius: .5rem;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color .2s ease;
+
+  &:hover{
+    background-color: #2180d8;
+  }
+
+  &:focus{
+    background-color: #2796ff;
+  }
+
+}
