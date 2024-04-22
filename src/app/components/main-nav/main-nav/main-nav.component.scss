@@ -4,6 +4,8 @@
   display: flex;
   padding-top: 1rem;
   width: 100%;
+  position: relative;
+  z-index: 5;
 }
 
 header{
