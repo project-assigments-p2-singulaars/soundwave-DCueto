@@ -1,0 +1,10 @@
+
+@mixin wrap-page{
+  padding: 0 5rem;
+  max-width: 900px;
+  margin: 0 auto;
+
+  @media screen and ( width < 670px) {
+    padding: 0 2rem;
+  }
+}

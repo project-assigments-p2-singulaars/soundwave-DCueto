@@ -1,1 +1,8 @@
-<p>join-section works!</p>
+<section>
+  <img src="{{ imagePath }}" alt="" >
+  <div class="content">
+    <h2>{{ title }}</h2>
+    <p>{{ body }}</p>
+    <sw-join-button [route]="joinButtonRoute" [text]="joinButtonText"></sw-join-button>
+  </div>
+</section>
