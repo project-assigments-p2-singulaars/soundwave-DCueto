@@ -1,0 +1,23 @@
+@import './../../../../assets/styles/mixins';
+
+:host{
+  width: 100%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: #202027;
+  color: white;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  @include wrap-page;
+}
+
+@media screen and ( width < 380px ){
+  footer{
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+}

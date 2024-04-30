@@ -1,0 +1,5 @@
+<ul>
+  @for (item of menuItems; track $index) {
+    <sw-footer-menu-item [itemText]="item.itemText" [itemLink]="item.itemLink" ></sw-footer-menu-item>
+  }
+</ul>

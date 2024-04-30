@@ -1,0 +1,13 @@
+li{
+  list-style: none;
+
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}

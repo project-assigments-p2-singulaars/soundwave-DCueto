@@ -1,0 +1,12 @@
+<form>
+  @for (input of inputFields; track $index) {
+    <sw-input 
+      [type]="input.type" 
+      [id]="input.id" 
+      [name]="input.name" 
+      [label]="input.label" 
+      [isRequired]="input.isRequired">
+    </sw-input>
+  }
+  <sw-submit-button></sw-submit-button>
+</form>
